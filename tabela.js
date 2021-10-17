@@ -1,5 +1,5 @@
 
-function init() {
+function init(){
     var tbody = document.getElementById("tbody");
 
     var dados = [

@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <title>Busca em tabela</title>
-    
+
     <script type="text/javascript" src="tabela.js"></script>
+
     <style>
-        *{
+        * {
             margin: 0 auto;
             padding: 0;
         }
+
         #customers {
             font-family: Arial, Helvetica, sans-serif;
             border-collapse: collapse;
@@ -38,10 +40,12 @@
             background-color: #04AA6D;
             color: white;
         }
+
         .maxWidth {
             max-width: 800px;
             width: 100%;
         }
+
         .input {
             padding: 10px;
             margin-top: 10px;
@@ -52,10 +56,11 @@
             font-weight: bold;
         }
     </style>
+    
 </head>
 
 <body>
-    
+   
     <div id="dvTabela" class="maxWidth">
         <input type="text" id="txtBusca" placeholder="Buscar" class="maxWidth input" />
         <table id="customers">
@@ -72,7 +77,9 @@
         </table>
     </div>
 
-    
+    <script>
+        init();
+    </script>
 
 </body>
 
